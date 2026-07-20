@@ -5,7 +5,6 @@ export const ContainerLoginScreen = styled.div`
     justify-content: right;
     display: flex;
 `;
-
 export const BackgroundImage = styled.img`
   position: absolute;
   left: 0;
@@ -32,10 +31,10 @@ export const ContainerLogin = styled.div`
   top: 0;
   z-index: 2;
 `;
-
 export const LimitedContainer = styled.div`
   width: 100%;
   max-width: 498px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 `;
